@@ -32,7 +32,7 @@ const Card = (props: ICardProps) => {
           </div>
         </div>
       </div>
-      <button>Delete</button>
+      <button className={styles.deleteButton}>Delete</button>
     </div>
   );
 };
